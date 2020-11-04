@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 class Header extends Component{
 
@@ -23,10 +23,10 @@ class Header extends Component{
         return(
             <React.Fragment>
                 <Navbar dark expand="lg" className="header" id="header">
-                    <div className="container">
+                    <div className="container-fluid">
                         <NavbarToggler className="d-lg-none mr-auto" id="navbutton" onClick={this.toggleNav}/>
 
-                        <Collapse isOpen={this.state.isNavOpen} className="col-6 col-lg-6 col-sm-8 mr-auto d-none" navbar>
+                        <Collapse isOpen={this.state.isNavOpen} className="col-5 mr-auto d-none" navbar>
                             <Nav navbar className="d-contents">
                                 <NavItem className="bodyanimate">
                                     <NavLink className="nav-link" to="/home">
@@ -56,9 +56,18 @@ class Header extends Component{
                             </Nav>
                         </Collapse>
 
-                        <NavbarBrand className="mr-auto bodyanimate" href="/">
-                            The Helping Book
+                        <NavbarBrand className="mr-auto" href="/">
+                            <h3 className="header-heading one">
+                                <div>THE</div>
+                                <div>&nbsp;HELPING</div>
+                                <div>&nbsp;BOOK</div>
+                            </h3>
                         </NavbarBrand>
+
+                        <form className="col-4 search-button d-none d-lg-flex">
+                            <input type="text" id="searchinput" name="query" className="col-10" required="required"/>
+                            <button type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
 
                         <div className="btn-group">
                             <a className="btn btn-social-icon btn-instagram" href="http://google.com/+"><i className="fa fa-instagram"><div></div></i></a>
@@ -68,7 +77,13 @@ class Header extends Component{
                         </div>
                     </div>
                     <div className="container d-lg-none justify-content-center">
-                        <Collapse isOpen={this.state.isNavOpen} className="col-6 justify-content-center" navbar>
+                        <Collapse isOpen={this.state.isNavOpen} className="col-12 justify-content-center" navbar>
+
+                            <form className="col-12 d-flex search-button">
+                                <input type="search" name="query" id="input" className="mr-auto col-10" required="required"/>
+                                <button className="col-2"><i className="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+
                             <Nav navbar className="d-contents">
                                 <NavItem>
                                     <NavLink className="nav-link" to="/home">
