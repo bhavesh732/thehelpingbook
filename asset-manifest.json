@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b4b2bb4.chunk.css",
+    "main.js": "/static/js/main.b241464b.chunk.js",
+    "main.js.map": "/static/js/main.b241464b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8883081a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8883081a.js.map",
+    "static/css/2.3886e4c5.chunk.css": "/static/css/2.3886e4c5.chunk.css",
+    "static/js/2.6b440473.chunk.js": "/static/js/2.6b440473.chunk.js",
+    "static/js/2.6b440473.chunk.js.map": "/static/js/2.6b440473.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0e211e0788b79bf9d460d44ba3d1f2bb.js": "/precache-manifest.0e211e0788b79bf9d460d44ba3d1f2bb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3886e4c5.chunk.css.map": "/static/css/2.3886e4c5.chunk.css.map",
+    "static/css/main.7b4b2bb4.chunk.css.map": "/static/css/main.7b4b2bb4.chunk.css.map",
+    "static/js/2.6b440473.chunk.js.LICENSE.txt": "/static/js/2.6b440473.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/sociology.44400475.jpg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.png": "/static/media/logo.cdd8f07e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8883081a.js",
+    "static/css/2.3886e4c5.chunk.css",
+    "static/js/2.6b440473.chunk.js",
+    "static/css/main.7b4b2bb4.chunk.css",
+    "static/js/main.b241464b.chunk.js"
+  ]
+}
