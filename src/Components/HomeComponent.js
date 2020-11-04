@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../resources/images/logo.png'
 class Homepage extends Component{
     render(){
         return(
@@ -8,7 +9,8 @@ class Homepage extends Component{
                     <div className="col-12 d-flex parallax">
                         <div className="col-lg-6 offset-lg-6 d-flex background-dark">
                             <div className="align-items-center m-auto">
-                                <div className="welcome extralarge">Welcome to</div>
+                                <img src={Logo} className="img-fluid logo" alt="The Helping Book"/>
+                                <span className="welcome extralarge">Welcome to</span>
                                 <h1 className="bodyanimate">The Helping Book</h1>
                             </div>
                         </div>

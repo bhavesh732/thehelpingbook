@@ -101,6 +101,10 @@ h1,h2,h3,h4,h5,h6,.navbar-brand{
 
 /* header */
 
+.align-items-center{
+  text-align: center;
+}
+
 .navbar-brand{
   font-size: xx-large;
 }
@@ -111,6 +115,10 @@ h1,h2,h3,h4,h5,h6,.navbar-brand{
 
 .headerscroll .navbar-brand, .headerscroll .nav-link, .headerscroll .fa:before{
   color: #fff!important;
+}
+
+span.extralarge:before, span.extralarge:after{
+  width: 25%;
 }
 
 .header{
@@ -689,6 +697,15 @@ textarea{
   font-weight: 900;
 }
 
+.center{
+  margin: 7px 0px;
+  text-align: center;
+}
+
+.center img{
+  max-width: 100%;
+}
+
 .blog-title{
   margin: 30px 0px;
 }
@@ -718,6 +735,20 @@ textarea{
   }
 
   to {
+    transform: translateX(0px);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes logoanimate {
+  from {
+    transform: translateY(500px);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  to {
     transform: translateY(0px);
     opacity: 1;
     visibility: visible;
@@ -728,6 +759,14 @@ textarea{
   visibility: visible;
 }
 
+.logo{
+  width: 50%;
+  margin: 10px;
+  animation-name: logoanimate !important;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
 .bodyanimate {
   visibility: hidden;
   animation-name: bodyanimate !important;
@@ -735,6 +774,8 @@ textarea{
   /* animation-delay: 1s; */
   animation-timing-function: ease-in-out;
 }
+
+
 
 .blogpost,#homepage,.subjects{
   position: relative;

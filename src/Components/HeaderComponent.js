@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { NavLink, Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
-import { Link } from 'react-router-dom';
-
+import $ from "jquery";
 class Header extends Component{
 
     constructor(props){
@@ -29,9 +28,9 @@ class Header extends Component{
                         <Collapse isOpen={this.state.isNavOpen} className="col-5 mr-auto d-none" navbar>
                             <Nav navbar className="d-contents">
                                 <NavItem className="bodyanimate">
-                                    <NavLink className="nav-link" to="/home">
-                                        Home 
-                                    </NavLink>
+                                    <a className="nav-link" href="/home">
+                                        Home
+                                    </a>
                                 </NavItem>
                                 <NavItem className="bodyanimate">
                                     <a className="nav-link" href="/home#aboutus">
@@ -39,19 +38,19 @@ class Header extends Component{
                                     </a>
                                 </NavItem>
                                 <NavItem className="bodyanimate">
-                                    <NavLink className="nav-link" to={`/home/${'psychology'}`}>
-                                        Psychology
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem className="bodyanimate">
-                                    <NavLink className="nav-link" to={`/home/${'sociology'}`}>
-                                        Sociology
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem className="bodyanimate">
-                                    <NavLink className="nav-link" to={`/home/${'economics'}`}>
+                                    <a className="nav-link" href="/home/economics">
                                         Economics
-                                    </NavLink>
+                                    </a>
+                                </NavItem>
+                                <NavItem className="bodyanimate">
+                                    <a className="nav-link" href="/home/sociology">
+                                        Sociology
+                                    </a>
+                                </NavItem>
+                                <NavItem className="bodyanimate">
+                                    <a className="nav-link" href="/home/psychology">
+                                        Psychology
+                                    </a>
                                 </NavItem>
                             </Nav>
                         </Collapse>
@@ -86,9 +85,9 @@ class Header extends Component{
 
                             <Nav navbar className="d-contents">
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/home">
-                                        Home 
-                                    </NavLink>
+                                    <a className="nav-link" href="/home">
+                                        Home
+                                    </a>
                                 </NavItem>
                                 <NavItem>
                                     <a className="nav-link" href="/home#aboutus">
@@ -96,19 +95,19 @@ class Header extends Component{
                                     </a>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to={`/home/${'psychology'}`}>
-                                        Psychology
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to={`/home/${'sociology'}`}>
-                                        Sociology
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to={`/home/${'economics'}`}>
+                                    <a className="nav-link" href="/home/economics">
                                         Economics
-                                    </NavLink>
+                                    </a>
+                                </NavItem>
+                                <NavItem>
+                                    <a className="nav-link" href="/home/sociology">
+                                        Sociology
+                                    </a>
+                                </NavItem>
+                                <NavItem>
+                                    <a className="nav-link" href="/home/psychology">
+                                        Psychology
+                                    </a>
                                 </NavItem>
                             </Nav>
                         </Collapse>
