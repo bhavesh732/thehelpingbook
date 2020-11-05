@@ -63,10 +63,10 @@ class Header extends Component{
                             </h3>
                         </NavbarBrand>
 
-                        <form className="col-4 search-button d-none d-lg-flex">
+                        {/* <form className="col-4 search-button d-none d-lg-flex">
                             <input type="text" id="searchinput" name="query" className="col-10" required="required"/>
                             <button type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
-                        </form>
+                        </form> */}
 
                         <div className="btn-group">
                             <a className="btn btn-social-icon btn-instagram" href="http://google.com/+"><i className="fa fa-instagram"><div></div></i></a>
@@ -78,10 +78,10 @@ class Header extends Component{
                     <div className="container d-lg-none justify-content-center">
                         <Collapse isOpen={this.state.isNavOpen} className="col-12 justify-content-center" navbar>
 
-                            <form className="col-12 d-flex search-button">
+                            {/* <form className="col-12 d-flex search-button">
                                 <input type="search" name="query" id="input" className="mr-auto col-10" required="required"/>
                                 <button className="col-2"><i className="fa fa-search" aria-hidden="true"></i></button>
-                            </form>
+                            </form> */}
 
                             <Nav navbar className="d-contents">
                                 <NavItem>
