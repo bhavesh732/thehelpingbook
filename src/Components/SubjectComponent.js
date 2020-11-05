@@ -6,6 +6,11 @@ class SubjectPage extends Component{
 
     constructor(props){
         super(props)
+        this.myRef = React.createRef()  
+    }
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
     }
 
     render(){
@@ -24,7 +29,7 @@ class SubjectPage extends Component{
         );
 
         return(
-            <div className="container subjects">
+            <div ref={this.myRef} className="container subjects">
                 <div className="mb-5">
                     <h1 className="pagetitle">{this.props.subject.name}</h1>
                     <div className="pageimage col-12 d-flex" dangerouslySetInnerHTML={{__html:this.props.subject.titleimage}}/>

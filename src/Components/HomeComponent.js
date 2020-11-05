@@ -2,7 +2,13 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../resources/images/logo.png'
 class Homepage extends Component{
+    
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render(){
+
         return(
             <div className="container-fluid" id="homepage">
                 <div className="row page-heading" id="header2">
@@ -23,7 +29,7 @@ class Homepage extends Component{
                             <h1 className="bodyanimate col-12">About Us</h1>
                             <p className="col-12">The Helping Book is an end  to end solution to all your study notes and guides. We strive to provide students with the best customized notes that help them learn the subject better.
                             Through our blogs, you can clear your concepts and get your doubts solved easily and completely free of cost. Our notes are carefully curated to avoid any sort of plagiarism and deliver the best study materials.
-                            <br/><strong>We also strive to provide you personalised assistance with any of your assignments and doubts.</strong></p>
+                            <br/><strong>We also strive to provide you with personalised assistance with any of your assignments and doubts.</strong></p>
                         </div>
                     </div>
                 </div>
@@ -38,7 +44,7 @@ class Homepage extends Component{
                                     <div className="m-auto">
                                         <h1 className="align-items-center col-12">Economics</h1>
                                         <p className="showdiv col-12">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed hic eveniet corrupti assumenda minus pariatur, eum fuga ratione laboriosam, ipsam voluptatibus optio. Corporis iusto tenetur facere, corrupti rem obcaecati quia?
+                                            Economics has been one of the most interesting yet a very diversified subject to study. People tend to be a part of and use this subject in their daily lives without realising the significance of the same.
                                             <br/><Link to="/home/economics"><button>Read More Blogs on Economics</button></Link>
                                         </p>
                                     </div>
@@ -51,7 +57,7 @@ class Homepage extends Component{
                                     <div className="m-auto">
                                         <h1 className="align-items-center col-12">Sociology</h1>
                                         <p className="showdiv col-12">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed hic eveniet corrupti assumenda minus pariatur, eum fuga ratione laboriosam, ipsam voluptatibus optio. Corporis iusto tenetur facere, corrupti rem obcaecati quia?
+                                            You ever wondered how society functions? Or how does a society establish a pattern of socialisation? Sociology strives to answer these questions. Sociology is one of the most diversified social sciences available.
                                             <br/><Link to="/home/sociology"><button>Read More Blogs on Sociology</button></Link>
                                         </p>
                                     </div>
@@ -65,8 +71,7 @@ class Homepage extends Component{
                                 <div className="m-auto">
                                     <h1 className="align-items-center col-12">Psychology</h1>
                                     <p className="showdiv col-12">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed hic eveniet corrupti assumenda minus pariatur, eum fuga ratione laboriosam, ipsam voluptatibus optio. Corporis iusto tenetur facere, corrupti rem obcaecati quia?
-                                        <br/><Link to="/home/psychology"><button>Read More Blogs on Psychology</button></Link>
+                                        Have you ever wondered what makes people do the things they do? If the human mind and behaviour intrigues you, then Psychology is the subject for you! It deals with understanding others but more importantly analyse our behaviour and reactions.                                        <br/><Link to="/home/psychology"><button>Read More Blogs on Psychology</button></Link>
                                     </p>
                                 </div>
                             </div>

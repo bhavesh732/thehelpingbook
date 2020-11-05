@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { NavLink, Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
-import $ from "jquery";
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
+
 class Header extends Component{
 
     constructor(props){
@@ -27,27 +27,27 @@ class Header extends Component{
 
                         <Collapse isOpen={this.state.isNavOpen} className="col-5 mr-auto d-none" navbar>
                             <Nav navbar className="d-contents">
-                                <NavItem className="bodyanimate">
+                                <NavItem >
                                     <a className="nav-link" href="/home">
                                         Home
                                     </a>
                                 </NavItem>
-                                <NavItem className="bodyanimate">
+                                <NavItem >
                                     <a className="nav-link" href="/home#aboutus">
                                         About Us
                                     </a>
                                 </NavItem>
-                                <NavItem className="bodyanimate">
+                                <NavItem >
                                     <a className="nav-link" href="/home/economics">
                                         Economics
                                     </a>
                                 </NavItem>
-                                <NavItem className="bodyanimate">
+                                <NavItem >
                                     <a className="nav-link" href="/home/sociology">
                                         Sociology
                                     </a>
                                 </NavItem>
-                                <NavItem className="bodyanimate">
+                                <NavItem >
                                     <a className="nav-link" href="/home/psychology">
                                         Psychology
                                     </a>
