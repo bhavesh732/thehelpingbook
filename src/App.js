@@ -14,21 +14,21 @@ class App extends Component {
     );
   }
 
-  componentDidMount(){
-    let scripts = [
-        { src: "jquery-3.5.1.min.js" },
-        { src: "/__/firebase/8.0.0/firebase-app.js"},
-        { src: "/__/firebase/8.0.0/firebase-analytics.js"},
-        { src: "/__/firebase/init.js"},
-    ]
+//   componentDidMount(){
+//     let scripts = [
+//         { src: "jquery-3.5.1.min.js" },
+//         { src: "/__/firebase/8.0.0/firebase-app.js"},
+//         { src: "/__/firebase/8.0.0/firebase-analytics.js"},
+//         { src: "/__/firebase/init.js"},
+//     ]
 
-    scripts.map(item => { 
-        const script = document.createElement("script")
-        script.src = item.src
-        script.async = true
-        document.body.appendChild(script)
-    })    
- }
+//     scripts.map(item => { 
+//         const script = document.createElement("script")
+//         script.src = item.src
+//         script.async = true
+//         document.body.appendChild(script)
+//     })    
+//  }
 }
 
 export default App;
