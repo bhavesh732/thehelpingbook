@@ -14,12 +14,6 @@
   background: #000;
 }
 
-@font-face {
-  font-family: "Chivo";
-  src: url(./resources/fonts/Chivo-Bold.ttf);
-  font-display: swap;
-}
-
 * {
   margin: 0%;
 }
