@@ -2,17 +2,25 @@ import React, { Component } from 'react';
 import './App.css';
 import Main from './Components/MainComponent.js'
 import { BrowserRouter } from 'react-router-dom';
-// import $ from 'jquery';
+import {createBrowserHistory} from 'history';
+import ReactGA from 'react-ga';
 
-class App extends Component {
+export default function App() {
 
-  render() {
-    return (
-      <BrowserRouter>
-        <Main />
-      </BrowserRouter>
-    );
-  }
+  const history = createBrowserHistory();
+
+  history.listen(location => {
+    ReactGA.initialize('G-V1Q12DS7Y7');
+    ReactGA.set({ page: location.pathname });
+    ReactGA.pageview(location.pathname);
+  });
+
+  return (
+    <BrowserRouter history={history}>
+      <Main />
+    </BrowserRouter>
+  );
+
 
 //   componentDidMount(){
 //     let scripts = [
@@ -30,5 +38,3 @@ class App extends Component {
 //     })    
 //  }
 }
-
-export default App;
