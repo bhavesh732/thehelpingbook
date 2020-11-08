@@ -4,6 +4,7 @@ class Blog extends Component{
     
     componentDidMount() {
         window.scrollTo(0, 0)
+        document.title = this.props.blogdetails.name;
     }
 
     render(){

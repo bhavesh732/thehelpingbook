@@ -11,6 +11,7 @@ class SubjectPage extends Component{
 
     componentDidMount() {
         window.scrollTo(0, 0)
+        document.title = "THB | "+this.props.subject.name.charAt(0).toUpperCase() + this.props.subject.name.slice(1);
     }
 
     render(){

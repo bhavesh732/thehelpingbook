@@ -71,7 +71,7 @@ class Header extends Component{
                         <div className="btn-group">
                             <a className="btn btn-social-icon btn-instagram" target="_blank" rel="noopener noreferrer" href="http://instagram.com/thehelpingbookk"><i className="fa fa-instagram"><div></div></i></a>
                             <a className="btn btn-social-icon btn-facebook" target="_blank" rel="noopener noreferrer" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"><div></div></i></a>
-                            <a className="btn btn-social-icon btn-quora" target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/"><i className="fa fa-quora"><div></div></i></a>
+                            <a className="btn btn-social-icon btn-quora" target="_blank" rel="noopener noreferrer" href="https://www.quora.com/profile/The-Helping-Book"><i className="fa fa-quora"><div></div></i></a>
                             <a className="btn btn-social-icon btn-email d-none" target="_blank" rel="noopener noreferrer" href="mailto:thehelpingbookk@gmail.com"><i className="fa fa-envelope-o"><div></div></i></a>
                         </div>
                     </div>
