@@ -63,7 +63,7 @@ class Header extends Component{
                             </h3>
                         </NavbarBrand>
 
-                        {/* <form className="col-4 search-button d-none d-lg-flex">
+                        {/* <form className="col-4 search-button d-none d-lg-flex" action="javascript: searchresult()">
                             <input type="text" id="searchinput" name="query" className="col-10" required="required"/>
                             <button type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
                         </form> */}

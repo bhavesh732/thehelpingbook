@@ -14,3 +14,9 @@ function postToGoogle() {
         }
     });
 }
+
+function searchresult(){
+    var query = document.getElementById('searchinput').value;
+    console.log(query);
+    window.location.href = `/home/search/results/${query}`;
+}
