@@ -30,7 +30,7 @@ class SearchResult extends Component{
             });
         }
         else{
-           searchresults = <div className="d-flex"><h1>OOPS! THERE WAS NO SUCH BLOG. IF YOU HAVE A SUGGESTION FOR A TOPIC CONTACT US ON ANY OF OUR PAGES BELOW!</h1></div>;
+           searchresults = <div className="d-flex"><h1>OOPS! THERE WAS NO SUCH BLOG. IF YOU HAVE A SUGGESTION FOR A TOPIC CONTACT US ON ANY OF OUR SOCIAL MEDIA PAGES BELOW!</h1></div>;
         }
 
         return(
