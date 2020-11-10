@@ -5,6 +5,9 @@ button.col-6{
     padding: 5px;
     border-radius: 5px;
 }
+.blogpost p,.blogpost li{
+    font-size: large;
+}
 .search .d-flex{
     height: 100%;
 }
