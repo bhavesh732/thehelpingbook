@@ -20,3 +20,9 @@ function searchresult(){
     console.log(query);
     window.location.href = `/home/search/results/${query}`;
 }
+
+function searchresult2(){
+    var query = document.getElementById('searchinput2').value;
+    console.log(query);
+    window.location.href = `/home/search/results/${query}`;
+}
