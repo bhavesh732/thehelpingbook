@@ -5,3 +5,15 @@ button.col-6{
     padding: 5px;
     border-radius: 5px;
 }
+.search .d-flex{
+    height: 100%;
+}
+.search{
+    height: 50vh;
+}
+
+.search .d-flex h1{
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+}
