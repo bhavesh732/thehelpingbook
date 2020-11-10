@@ -40,7 +40,7 @@ class Main extends Component{
             console.log(this.state.blogs.filter((blog) => blog.category === match.params.query));
             var displayresults = this.state.blogs.filter((blog) => blog.category.toLowerCase() === match.params.query.toLowerCase());
             displayresults = displayresults.concat(this.state.blogs.filter((blog) => blog.name.toLowerCase() === match.params.query.toLowerCase()));
-            displayresults = displayresults.concat(this.state.blogs.filter((blog) => blog.description.toLowerCase() === match.params.query.toLowerCase()));
+            displayresults = displayresults.concat(this.state.blogs.filter((blog) => blog.description.toLowerCase().includes(match.params.query.toLowerCase())));
             console.log(displayresults);
             return(
                 <SearchResult display={displayresults}/>

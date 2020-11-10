@@ -8,10 +8,6 @@ button.col-6{
 .search .d-flex{
     height: 100%;
 }
-.search{
-    height: 50vh;
-}
-
 .search .d-flex h1{
     height: fit-content;
     text-align: center;
