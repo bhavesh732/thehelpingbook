@@ -27,7 +27,7 @@ function Footer(){
                                     <label htmlFor="economics"><input id="economics" type="radio" name="entry.1498671018" value="economics" required/>&nbsp;Economics&nbsp;</label>
                                 </div>
                                 <textarea className="col-sm-10" name="entry.1065046570" height="300" placeholder="Brief Description of the topic for which help is required."></textarea>
-                                <input type="submit" className="col-6" value="Request a Call Back"/>
+                                <button type="submit" className="col-6">Request A Call Back</button>
                             </form>
                             <h4>Connect With us On :</h4>
                             <div className="row">

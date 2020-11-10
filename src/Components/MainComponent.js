@@ -19,7 +19,6 @@ class Main extends Component{
             blogs: BLOGS
         }
     }
-
     
     render(){
         const PageDetails = ({match}) => {
