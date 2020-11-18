@@ -32,12 +32,20 @@ table{
     margin: 5px 0px;
 }
 
-.left-0{
+.left{
     left: 0px;
+    position: absolute;
 }
 
-.right-0{
+.right{
     right: 0px;
+    position: absolute;
+}
+
+@media screen and (max-width: 500px) {
+    .left,.right{
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 325px){
