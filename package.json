@@ -15,6 +15,7 @@
     "history": "^5.0.0",
     "jquery": "^3.5.1",
     "react": "^16.14.0",
+    "react-adsense": "^0.1.0",
     "react-dom": "^16.14.0",
     "react-ga": "^3.2.0",
     "react-router": "^5.2.0",

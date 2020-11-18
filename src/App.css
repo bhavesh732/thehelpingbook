@@ -32,6 +32,14 @@ table{
     margin: 5px 0px;
 }
 
+.left-0{
+    left: 0px;
+}
+
+.right-0{
+    right: 0px;
+}
+
 @media screen and (max-width: 325px){
     .header-heading{
         font-size: xx-large;
