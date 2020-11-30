@@ -44,8 +44,8 @@ class SubjectPage extends Component{
                         {allblogs}
                         <Adsense.Google className="mb-3" client="ca-pub-3213534843834091" data-adtest="on" slot="3691558765" style={{ display: 'block' }} layout="in-article" format="fluid"/>
                     </div>
-                    <Adsense.Google className="col-sm-2 d-sm-block left" client='ca-pub-3213534843834091' slot='3174545839' format='auto' responsive='true' />
-                    <Adsense.Google className="col-sm-2 d-sm-block right" client='ca-pub-3213534843834091' slot='7800186554' format='auto' responsive='true' />
+                    <Adsense.Google className="col-sm-2 d-sm-block left" client='ca-pub-3213534843834091' slot='8370198046' format='auto' responsive='true' />
+                    <Adsense.Google className="col-sm-2 d-sm-block right" client='ca-pub-3213534843834091' slot='4289490418' format='auto' responsive='true' />
                 </div>
             </div>
         );
